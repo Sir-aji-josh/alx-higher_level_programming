@@ -3,7 +3,9 @@
 
 
 def print_last_digit(number):
-    """Print the last digit of a number and return it."""
-    print(abs(number) % 10, end="")
-    return (abs(number) % 10)
+    last_digit = abs(number) % 10
+    print(last_digit)
+    return last_digit
 
+# Example usage
+result = print_last_digit(12345)  # Output: 5
