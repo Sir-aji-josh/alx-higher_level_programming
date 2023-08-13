@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def add(a, b):
     """My addition function
 
@@ -9,11 +8,12 @@ def add(a, b):
 
     Returns:
         The return value. a + b
-    """"
+    """
     return (a + b)
 
+
 def sub(a, b):
-    """" My subtraction function
+    """My subtraction function
 
     Args:
         a: first integer
@@ -21,11 +21,12 @@ def sub(a, b):
 
     Returns:
         The return value. a - b
-    """"
+    """
     return (a - b)
 
+
 def mul(a, b):
-    """" My multiplication function
+    """My multiplication function
 
     Args:
         a: first integer
@@ -33,11 +34,12 @@ def mul(a, b):
 
     Returns:
         The return value. a * b
-    """"
+    """
     return (a * b)
 
+
 def div(a, b):
-    """" My division function
+    """My division function
 
     Args:
         a: first integer
@@ -45,5 +47,5 @@ def div(a, b):
 
     Returns:
         The return value. a / b
-    """"
+    """
     return int(a / b)
