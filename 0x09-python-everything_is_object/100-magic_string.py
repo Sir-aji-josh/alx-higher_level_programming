@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-def magic_string():
-    magic_string.n = getattr(magic_string, 'n', 0) + 1
-    return ("BestSchool, " * (magic_string.n - 1) + "BestSchool")
+# 100-magic_string.py
+def magic_string(a=[]):
+    a.append("Holberton")
+    return ", ".join(a)
+
 
