@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-# 1-rectangle.py 
+#!/usr/bin/python3 
 """Insert module comment here"""
 
 
